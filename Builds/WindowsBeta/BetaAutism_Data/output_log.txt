@@ -1,0 +1,385 @@
+Mono path[0] = 'D:/D Folder/Projets/ProjetZero3/Builds/WindowsBeta/BetaAutism_Data/Managed'
+Mono path[1] = 'D:/D Folder/Projets/ProjetZero3/Builds/WindowsBeta/BetaAutism_Data/Mono'
+Mono config path = 'D:/D Folder/Projets/ProjetZero3/Builds/WindowsBeta/BetaAutism_Data/Mono/etc'
+PlayerConnection initialized from D:/D Folder/Projets/ProjetZero3/Builds/WindowsBeta/BetaAutism_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55403
+Multi-casting "[IP] 172.30.22.239 [Port] 55403 [Flags] 2 [Guid] 1225107492 [EditorId] 735181163 [Version] 1048832 [Id] WindowsPlayer(WHITE-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [172.30.22.239:55403]
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 765M      (ID=0x11e2)
+    Vendor:   NVIDIA
+    VRAM:     1992 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween43.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween46.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween50.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.105 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\WindowsBeta\BetaAutism_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 274c -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.656713 ms
+System memory in use before: 11.7 MB.
+System memory in use after: 11.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 482.
+Total: 0.712133 ms (FindLiveObjects: 0.079740 ms CreateObjectMapping: 0.040659 ms MarkObjects: 0.579891 ms  DeleteObjects: 0.009868 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.600327 ms
+System memory in use before: 16.8 MB.
+System memory in use after: 16.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 893.
+Total: 0.649368 ms (FindLiveObjects: 0.073818 ms CreateObjectMapping: 0.065528 ms MarkObjects: 0.470150 ms  DeleteObjects: 0.038685 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.538351 ms
+System memory in use before: 17.2 MB.
+System memory in use after: 16.8 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 501.
+Total: 1.178336 ms (FindLiveObjects: 0.038291 ms CreateObjectMapping: 0.031580 ms MarkObjects: 0.364356 ms  DeleteObjects: 0.743319 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.742043 ms
+System memory in use before: 17.3 MB.
+System memory in use after: 17.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 767.
+Total: 0.623314 ms (FindLiveObjects: 0.076976 ms CreateObjectMapping: 0.057239 ms MarkObjects: 0.477255 ms  DeleteObjects: 0.010658 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.119123 ms
+System memory in use before: 17.3 MB.
+System memory in use after: 16.9 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 510.
+Total: 1.268734 ms (FindLiveObjects: 0.048159 ms CreateObjectMapping: 0.033553 ms MarkObjects: 0.443307 ms  DeleteObjects: 0.741740 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.211495 ms
+System memory in use before: 17.9 MB.
+System memory in use after: 17.9 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2770.
+Total: 1.017277 ms (FindLiveObjects: 0.185138 ms CreateObjectMapping: 0.079740 ms MarkObjects: 0.737397 ms  DeleteObjects: 0.013421 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.431189 ms
+System memory in use before: 16.9 MB.
+System memory in use after: 16.5 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 517.
+Total: 1.359528 ms (FindLiveObjects: 0.071844 ms CreateObjectMapping: 0.043422 ms MarkObjects: 0.564496 ms  DeleteObjects: 0.677790 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.181494 ms
+System memory in use before: 17.6 MB.
+System memory in use after: 17.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 0.810821 ms (FindLiveObjects: 0.139742 ms CreateObjectMapping: 0.059607 ms MarkObjects: 0.598444 ms  DeleteObjects: 0.011842 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.849324 ms
+System memory in use before: 16.9 MB.
+System memory in use after: 16.5 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 524.
+Total: 1.225706 ms (FindLiveObjects: 0.050133 ms CreateObjectMapping: 0.032369 ms MarkObjects: 0.445280 ms  DeleteObjects: 0.697133 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.350448 ms
+System memory in use before: 17.5 MB.
+System memory in use after: 17.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 925.
+Total: 0.549890 ms (FindLiveObjects: 0.056449 ms CreateObjectMapping: 0.037106 ms MarkObjects: 0.421595 ms  DeleteObjects: 0.033553 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.665461 ms
+System memory in use before: 17.4 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 531.
+Total: 1.049647 ms (FindLiveObjects: 0.038291 ms CreateObjectMapping: 0.030395 ms MarkObjects: 0.382515 ms  DeleteObjects: 0.597655 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.298341 ms
+System memory in use before: 17.5 MB.
+System memory in use after: 17.5 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 797.
+Total: 0.507257 ms (FindLiveObjects: 0.048554 ms CreateObjectMapping: 0.035132 ms MarkObjects: 0.412121 ms  DeleteObjects: 0.010658 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.052015 ms
+System memory in use before: 17.5 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 538.
+Total: 1.248997 ms (FindLiveObjects: 0.039870 ms CreateObjectMapping: 0.030790 ms MarkObjects: 0.474097 ms  DeleteObjects: 0.703054 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.241497 ms
+System memory in use before: 17.0 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 907.
+Total: 0.538047 ms (FindLiveObjects: 0.058818 ms CreateObjectMapping: 0.031580 ms MarkObjects: 0.436991 ms  DeleteObjects: 0.010263 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.380055 ms
+System memory in use before: 16.9 MB.
+System memory in use after: 16.5 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 545.
+Total: 1.052015 ms (FindLiveObjects: 0.039870 ms CreateObjectMapping: 0.030790 ms MarkObjects: 0.401463 ms  DeleteObjects: 0.578707 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.151888 ms
+System memory in use before: 17.5 MB.
+System memory in use after: 17.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1000.
+Total: 0.781215 ms (FindLiveObjects: 0.094345 ms CreateObjectMapping: 0.052502 ms MarkObjects: 0.620156 ms  DeleteObjects: 0.013421 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.378081 ms
+System memory in use before: 17.5 MB.
+System memory in use after: 17.2 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 552.
+Total: 1.436110 ms (FindLiveObjects: 0.042633 ms CreateObjectMapping: 0.031580 ms MarkObjects: 0.552653 ms  DeleteObjects: 0.808453 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.249392 ms
+System memory in use before: 17.5 MB.
+System memory in use after: 17.5 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 818.
+Total: 0.530942 ms (FindLiveObjects: 0.047370 ms CreateObjectMapping: 0.036317 ms MarkObjects: 0.436596 ms  DeleteObjects: 0.010263 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.562825 ms
+System memory in use before: 17.5 MB.
+System memory in use after: 17.2 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 559.
+Total: 1.230443 ms (FindLiveObjects: 0.038291 ms CreateObjectMapping: 0.030395 ms MarkObjects: 0.600418 ms  DeleteObjects: 0.560153 ms)
+
