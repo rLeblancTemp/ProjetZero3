@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 95d24ea9a9244bb419a578a62a5644a1
+timeCreated: 1438005063
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: astronaut_bras_other_pSphere24
+    100002: astronaut_other_head1_pSphere19
+    100004: astronaut_other_legs_pSphere21
+    100006: astronaut_other_legs_pSphere25
+    100008: astronaut_other_legs_pSphere26
+    100010: astronaut_other_pCube2_head1
+    100012: astronaut_other_pSphere22_legs
+    100014: astronaut_pSphere23_bras_other
+    100016: //RootNode
+    100018: body_astronaut_pCylinder3
+    100020: body_astronaut_pCylinder4
+    100022: body_astronaut_pSphere20
+    100024: pCylinder2_body_astronaut
+    100026: astronaut_bras_other_pSphere27
+    400000: astronaut_bras_other_pSphere24
+    400002: astronaut_other_head1_pSphere19
+    400004: astronaut_other_legs_pSphere21
+    400006: astronaut_other_legs_pSphere25
+    400008: astronaut_other_legs_pSphere26
+    400010: astronaut_other_pCube2_head1
+    400012: astronaut_other_pSphere22_legs
+    400014: astronaut_pSphere23_bras_other
+    400016: //RootNode
+    400018: body_astronaut_pCylinder3
+    400020: body_astronaut_pCylinder4
+    400022: body_astronaut_pSphere20
+    400024: pCylinder2_body_astronaut
+    400026: astronaut_bras_other_pSphere27
+    2300000: astronaut_bras_other_pSphere24
+    2300002: astronaut_other_head1_pSphere19
+    2300004: astronaut_other_legs_pSphere21
+    2300006: astronaut_other_legs_pSphere25
+    2300008: astronaut_other_legs_pSphere26
+    2300010: astronaut_other_pCube2_head1
+    2300012: astronaut_other_pSphere22_legs
+    2300014: astronaut_pSphere23_bras_other
+    2300016: body_astronaut_pCylinder3
+    2300018: body_astronaut_pCylinder4
+    2300020: body_astronaut_pSphere20
+    2300022: pCylinder2_body_astronaut
+    2300024: astronaut_bras_other_pSphere27
+    3300000: astronaut_bras_other_pSphere24
+    3300002: astronaut_other_head1_pSphere19
+    3300004: astronaut_other_legs_pSphere21
+    3300006: astronaut_other_legs_pSphere25
+    3300008: astronaut_other_legs_pSphere26
+    3300010: astronaut_other_pCube2_head1
+    3300012: astronaut_other_pSphere22_legs
+    3300014: astronaut_pSphere23_bras_other
+    3300016: body_astronaut_pCylinder3
+    3300018: body_astronaut_pCylinder4
+    3300020: body_astronaut_pSphere20
+    3300022: pCylinder2_body_astronaut
+    3300024: astronaut_bras_other_pSphere27
+    4300000: astronaut_bras_other_pSphere24
+    4300002: astronaut_other_head1_pSphere19
+    4300004: astronaut_other_legs_pSphere21
+    4300006: astronaut_other_legs_pSphere25
+    4300008: astronaut_other_legs_pSphere26
+    4300010: astronaut_other_pCube2_head1
+    4300012: astronaut_other_pSphere22_legs
+    4300014: astronaut_pSphere23_bras_other
+    4300016: body_astronaut_pCylinder3
+    4300018: body_astronaut_pCylinder4
+    4300020: body_astronaut_pSphere20
+    4300022: pCylinder2_body_astronaut
+    4300024: astronaut_bras_other_pSphere27
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
