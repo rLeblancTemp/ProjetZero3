@@ -9,6 +9,8 @@ public class dragFinger : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 	Transform startParent;
 	Transform otherParent;
 
+    bool dragged = false;
+
 	void Start()
 	{
 		otherParent = gameObject.transform.parent.parent.parent;
@@ -19,22 +21,28 @@ public class dragFinger : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
 	public void OnBeginDrag (PointerEventData eventData)
 	{
-		itemBeingDragged = gameObject;
-		startPosition = transform.position;
+        if (Lecture.playing == false)
+        {
+            dragged = true;
+            itemBeingDragged = gameObject;
+            startPosition = transform.position;
 
-		startParent = transform.parent;
-		GetComponent<CanvasGroup> ().blocksRaycasts = false;
+            startParent = transform.parent;
+            GetComponent<CanvasGroup>().blocksRaycasts = false;
+        }
 	}
 
-	#endregion
+    #endregion
 
 
-	#region IDragHandler implementation
+    #region IDragHandler implementation
 
-	public void OnDrag (PointerEventData eventData)
-	{
-		transform.position = Input.mousePosition;
-		transform.SetParent (otherParent);
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (dragged == true) {
+        transform.position = Input.mousePosition;
+        transform.SetParent(otherParent);
+    }
 	}
 
 	#endregion
@@ -43,17 +51,21 @@ public class dragFinger : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 	#region IEndDragHandler implementation
 	public void OnEndDrag (PointerEventData eventData)
 	{
-		itemBeingDragged = null;
-		GetComponent<CanvasGroup> ().blocksRaycasts = true;
-		if (transform.parent == otherParent) 
-		{
-			Destroy (gameObject);
-		}
+        if (dragged == true)
+        {
+            dragged = false;
+            itemBeingDragged = null;
+            GetComponent<CanvasGroup>().blocksRaycasts = true;
+            if (transform.parent == otherParent)
+            {
+                Destroy(gameObject);
+            }
 
-		if (transform.parent == startParent) { // reviens dans le Slot si je te glisses dans le vide
-			transform.position = startPosition;
-		}
-
+            if (transform.parent == startParent)
+            { // reviens dans le Slot si je te glisses dans le vide
+                transform.position = startPosition;
+            }
+        }
 	}
 	#endregion
 

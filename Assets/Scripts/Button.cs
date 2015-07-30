@@ -29,7 +29,7 @@ public class Button : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public Sprite S_C;
 
     Image _sprite;
-    
+    bool dragged = false;
 
     // Use this for initialization
     void Start() {
@@ -97,15 +97,19 @@ public class Button : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Pool.ItemBeingDragged = this.gameObject;
-        GetComponent<CanvasGroup>().blocksRaycasts = false;
-        this.gameObject.transform.SetParent(GameObject.Find("MOC").transform);
-        if (!Used)
-        { 
-        Image NewForward;
-        NewForward = (Image)Instantiate(ForwardPrefab, Slot.GetComponent<Pool>().ButtonsSpots[S_Type], Quaternion.identity);
-        NewForward.transform.SetParent(Pool.PoolObject.transform, false);
-        NewForward.rectTransform.localPosition = Slot.GetComponent<Pool>().ButtonsSpots[S_Type];           
+        if (Lecture.playing == false)
+        {
+            dragged = true;
+            Pool.ItemBeingDragged = this.gameObject;
+            GetComponent<CanvasGroup>().blocksRaycasts = false;
+            this.gameObject.transform.SetParent(GameObject.Find("MOC").transform);
+            if (!Used)
+            {
+                Image NewForward;
+                NewForward = (Image)Instantiate(ForwardPrefab, Slot.GetComponent<Pool>().ButtonsSpots[S_Type], Quaternion.identity);
+                NewForward.transform.SetParent(Pool.PoolObject.transform, false);
+                NewForward.rectTransform.localPosition = Slot.GetComponent<Pool>().ButtonsSpots[S_Type];
+            }
         }
     }
 
@@ -115,7 +119,10 @@ public class Button : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnDrag(PointerEventData eventData)
     {
-        this.transform.position = Input.mousePosition; //+ new Vector3(0, 70, 0);
+        if (dragged == true)
+        {
+            this.transform.position = Input.mousePosition; //+ new Vector3(0, 70, 0);
+        }
     }
 
     #endregion
@@ -124,13 +131,17 @@ public class Button : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Used = true;
-        Pool.ItemBeingDragged = null;
-        GetComponent<CanvasGroup>().blocksRaycasts = true;
-        if (transform.parent == GameObject.Find("MOC").transform)
+        if (dragged == true)
+        {
+            dragged = false;
+            Used = true;
+            Pool.ItemBeingDragged = null;
+            GetComponent<CanvasGroup>().blocksRaycasts = true;
+            if (transform.parent == GameObject.Find("MOC").transform)
             {
-            Destroy(this.gameObject);
+                Destroy(this.gameObject);
             }
+        }
     }
     #endregion
 }

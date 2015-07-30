@@ -1539,7 +1539,7 @@ MeshCollider:
   m_GameObject: {fileID: 307765564}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -11892,6 +11892,38 @@ Prefab:
     - target: {fileID: 22440520, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
       propertyPath: m_AnchoredPosition.x
       value: -379.399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419768, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_Text
+      value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495958, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_Text
+      value: B
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462254, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_Text
+      value: C
+      objectReference: {fileID: 0}
+    - target: {fileID: 22407024, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -335
+      objectReference: {fileID: 0}
+    - target: {fileID: 22464682, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 22464682, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -168.529999
+      objectReference: {fileID: 0}
+    - target: {fileID: 22430488, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 22430488, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -168.529999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44e26d3cde5308144b71a2e52055064a, type: 2}

@@ -46,7 +46,10 @@ public class Lecture : MonoBehaviour {
 
     public float AscnesionTime = 20;
 
-    bool  playing = false;
+    static public bool  playing = false;
+
+
+    bool dragged = false;
 
     // Use this for initialization
     void Awake()
@@ -79,16 +82,36 @@ public class Lecture : MonoBehaviour {
 
     public void FirstPlay()
     {
-
+        if (MainCharacter.GetComponent<Rigidbody>().velocity != Vector3.zero)
+        {
+            return;
+        }
         //CurrentOrder = F1.transform.GetChild(0).GetChild(0).gameObject;
         //CurrentOrderColor = CurrentOrder.GetComponent<Button>().BlockColor;
         if (!playing)
         {
+
+            
             Play();
             playing = true;
         }
         else
         {
+            foreach (Transform obj in F1.transform)
+            {
+                if (obj.childCount!=0)
+                obj.GetChild(0).transform.localScale = Vector3.one;
+            }
+            foreach (Transform obj in F2.transform)
+            {
+                if (obj.childCount != 0)
+                    obj.GetChild(0).transform.localScale = Vector3.one;
+            }
+            foreach (Transform obj in F3.transform)
+            {
+                if (obj.childCount != 0)
+                    obj.GetChild(0).transform.localScale = Vector3.one;
+            }
             MainCharacter.GetComponent<Rigidbody>().velocity = Vector3.zero;
             MainCharacter.transform.DOKill();
             StopAllCoroutines();
@@ -153,7 +176,7 @@ public class Lecture : MonoBehaviour {
     {
         //Debug.Log("CoroutineStart : " + Time.time);
         yield return new WaitForSeconds(x);
-        CurrentOrder.transform.DOScale(1f, 0.1f);
+       
         //Debug.Log("CoroutineEnd : " + Time.time);
         anim.SetBool("movingForward", false);
         anim.SetBool("turnLeft", false);
@@ -181,9 +204,14 @@ public class Lecture : MonoBehaviour {
             CurrentOrderNumber++;
             CurrentSlot = CurrentFunction.transform.GetChild(CurrentOrderNumber).gameObject;
             //Debug.Log(Time.time);
+            if (CurrentSlot.transform.childCount != 0)
+            {
+                CurrentOrder.transform.DOScale(1f, 0.1f);
+            }
             Play();
         } else
         {
+            playing = false;
             Debug.Log("End of the function");
         }
     }
@@ -192,7 +220,7 @@ public class Lecture : MonoBehaviour {
     void ExecuteOrder(Button.type OrderType)
     {
         Debug.Log("Executing order : " + OrderType);
-        CurrentOrder.transform.DOScale(1.35f, 0.1f);
+        CurrentOrder.transform.DOScale(1.5f, 0.1f);
         switch (OrderType)
         {
             case Button.type.Forward:
@@ -268,11 +296,13 @@ public class Lecture : MonoBehaviour {
     public void NextLevel()
     {
         //RedMetricsManager.get().sendEvent(TrackingEvent.LEVELFINISHED, "string");
+        playing = false;
         Application.LoadLevel(Application.loadedLevel +1);
     }
 
     public void GotoLevelSelection()
     {
+        playing = false;
         Application.LoadLevel("LevelSelection");
     }
 }
