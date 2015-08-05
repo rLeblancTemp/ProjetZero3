@@ -50,6 +50,7 @@ public class Lecture : MonoBehaviour {
 
 
     bool dragged = false;
+    bool tempFix = false;
 
     // Use this for initialization
     void Awake()
@@ -82,16 +83,17 @@ public class Lecture : MonoBehaviour {
 
     public void FirstPlay()
     {
-        if (MainCharacter.GetComponent<Rigidbody>().velocity != Vector3.zero)
-        {
-            return;
-        }
+     
         //CurrentOrder = F1.transform.GetChild(0).GetChild(0).gameObject;
         //CurrentOrderColor = CurrentOrder.GetComponent<Button>().BlockColor;
-        if (!playing)
+        if (!playing && tempFix == false)
         {
 
-            
+            if (MainCharacter.GetComponent<Rigidbody>().velocity != Vector3.zero)
+            {
+                return;
+            }
+            tempFix = true;
             Play();
             playing = true;
         }
@@ -125,6 +127,7 @@ public class Lecture : MonoBehaviour {
             anim.SetBool("turnLeft", false);
             anim.SetBool("turnRight", false);
             playing = false;
+            tempFix = false;
         }
     }
 
