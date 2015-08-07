@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public enum colorType { none, C1, C2, C3 };
+
 public class Case : MonoBehaviour {
 
     

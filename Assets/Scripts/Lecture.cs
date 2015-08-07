@@ -7,6 +7,7 @@ using UnityStandardAssets.ImageEffects;
 
 public class Lecture : MonoBehaviour {
 
+	#region Declarations
     [HideInInspector]
     public float moveDistance = 1.1f;
     [HideInInspector]
@@ -18,9 +19,9 @@ public class Lecture : MonoBehaviour {
     GameObject CurrentFunction;
     GameObject LastFunction;
 
-    public GameObject LevelDesign;
+    public GameObject LevelDesign; // useless 
     [HideInInspector]
-    public List<GameObject> LDList;
+    public List<GameObject> LDList; //useless
 
     public GameObject MainCharacter;
 
@@ -35,7 +36,7 @@ public class Lecture : MonoBehaviour {
     GameObject CurrentSlot;
     float duration = 0.5f;
 
-    public Image Highlight;
+    public Image Highlight; //old
 
     Animator anim;
 
@@ -44,14 +45,24 @@ public class Lecture : MonoBehaviour {
     public GameObject _UI;
     public GameObject _VictoryScreen;
 
-    public float AscnesionTime = 20;
+    public float AscnesionTime = 20; // speed of the final elevator animation
 
     static public bool  playing = false;
 
 
     bool dragged = false;
-    bool tempFix = false;
+    bool tempFix = false; // i don't remember what it is for, get it clean xD
+	bool tempfix2 = false; // don't remember too
 
+	#endregion
+
+	#region RedmetricsVariables
+	int NumberOfTries = 1;
+	float TimeToFinish = 0; //inSeconds
+
+	float StartTime;
+	float EndTime;
+	#endregion
     // Use this for initialization
     void Awake()
     {
@@ -60,9 +71,10 @@ public class Lecture : MonoBehaviour {
     }
 
     void Start () {
+		StartTime = Time.time;
         moveDistance = 1.1f;
         FirstCase = CurrentCase;
-        foreach (Transform child in LevelDesign.transform)
+        foreach (Transform child in LevelDesign.transform) //useless
         {
             LDList.Add(child.gameObject);
         }
@@ -73,19 +85,11 @@ public class Lecture : MonoBehaviour {
 
         MainCharacter.transform.position = FirstCase.transform.position + new Vector3(0, 2, 0);
         MainCharacter.transform.rotation = FirstCase.transform.rotation;
-    }
-	
-	// Update is called once per frame
-	void Update () {
-
-
+		NumberOfTries++;
     }
 
-    public void FirstPlay()
+    public void FirstPlay() //when you click on play button
     {
-     
-        //CurrentOrder = F1.transform.GetChild(0).GetChild(0).gameObject;
-        //CurrentOrderColor = CurrentOrder.GetComponent<Button>().BlockColor;
         if (!playing && tempFix == false)
         {
 
@@ -94,8 +98,9 @@ public class Lecture : MonoBehaviour {
                 return;
             }
             tempFix = true;
+			playing = true;
             Play();
-            playing = true;
+            
         }
         else
         {
@@ -120,7 +125,6 @@ public class Lecture : MonoBehaviour {
             CurrentFunction = F1;
             CurrentOrderNumber = 0;
             CurrentSlot = F1.transform.GetChild(0).gameObject;
-            //Highlight.transform.position = new Vector3(-10000, -1000, -1000);
             MainCharacter.transform.position = FirstCase.transform.position + new Vector3(0, 2, 0);
             MainCharacter.transform.rotation = FirstCase.transform.rotation;
             anim.SetBool("movingForward", false);
@@ -146,6 +150,7 @@ public class Lecture : MonoBehaviour {
         else
         {
             CurrentOrder = CurrentSlot.transform.GetChild(0).gameObject;
+			tempfix2 = true;
         }
 
         
@@ -159,12 +164,10 @@ public class Lecture : MonoBehaviour {
         if (CurrentOrderColor == colorType.none)
         {
             ExecuteOrder(CurrentOrder.GetComponent<Button>().ButtonType);
-            //Highlight.transform.position = CurrentSlot.transform.position;
         }
         else if (CurrentOrderColor == CurrentCaseColor)
         {
             ExecuteOrder(CurrentOrder.GetComponent<Button>().ButtonType);
-            //Highlight.transform.position = CurrentSlot.transform.position;
         }
         else
         {
@@ -177,10 +180,7 @@ public class Lecture : MonoBehaviour {
 
     IEnumerator WaitAndNext(float x)
     {
-        //Debug.Log("CoroutineStart : " + Time.time);
-        yield return new WaitForSeconds(x);
-       
-        //Debug.Log("CoroutineEnd : " + Time.time);
+        yield return new WaitForSeconds(x);;
         anim.SetBool("movingForward", false);
         anim.SetBool("turnLeft", false);
         anim.SetBool("turnRight", false);
@@ -206,10 +206,9 @@ public class Lecture : MonoBehaviour {
         {
             CurrentOrderNumber++;
             CurrentSlot = CurrentFunction.transform.GetChild(CurrentOrderNumber).gameObject;
-            //Debug.Log(Time.time);
-            if (CurrentSlot.transform.childCount != 0)
-            {
-                CurrentOrder.transform.DOScale(1f, 0.1f);
+			if (CurrentSlot.transform.childCount != 0 && tempfix2 == true)
+			{
+				CurrentOrder.transform.DOScale(1f, 0.1f);
             }
             Play();
         } else
@@ -266,18 +265,30 @@ public class Lecture : MonoBehaviour {
 
     void GoForward()
     {
-        //Debug.Log(Time.time);
         MainCharacter.transform.DOMove(MainCharacter.transform.position + MainCharacter.transform.forward.normalized * moveDistance, duration).SetEase(Ease.Linear);
     }
     void Rotate(int Angle)
     {
-        // MainCharacter.transform.Rotate(new Vector3(0, Angle, 0));
         MainCharacter.transform.DORotate(new Vector3(0, Angle, 0), duration, RotateMode.LocalAxisAdd);
     }
 
 
     void Victory()
     {
+		EndTime = Time.time;
+		TimeToFinish = EndTime - StartTime;
+
+		//Redmetrics
+		if (GameObject.FindGameObjectWithTag("Redmetrics") !=null){
+		CustomData _customData = new CustomData();
+		_customData.Add("Level Finished", "Level " + Application.loadedLevel + " finished, " +
+		                			"Time Taken to finish : " + (int)TimeToFinish + " seconds, " + 
+		                		    "Number of trials : " + NumberOfTries);
+
+		RedMetricsManager.get().sendEvent(TrackingEvent.LEVELFINISHED, _customData);
+		}
+		//
+
         _UI.SetActive(false);
         foreach (Transform child in _ParticulSystem.transform)
         {
@@ -285,12 +296,11 @@ public class Lecture : MonoBehaviour {
         }
         CurrentCase.transform.DOLocalMoveY(10, AscnesionTime);
         StartCoroutine("KatyPerry");
-        //en cas de victoire;
     }
 
-    IEnumerator KatyPerry()
+    IEnumerator KatyPerry() // after fireworkds
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4);
         
         _VictoryScreen.SetActive(true);
         _ParticulSystem.transform.parent.gameObject.GetComponent<BlurOptimized>().enabled = true;

@@ -2,10 +2,22 @@
 using System.Collections;
 
 public enum TrackingEvent {
-    LEVELFINISHED,
+	//standard events
+	DEFAULT,
 	CREATEPLAYER,
+	START,
+	END,
+	WIN,
+	FAIL,
+	RESTART,
+	GAIN,
+	LOSE,
+
+	//other examples of events
+	CHANGEPLAYER,
 	JUMP,
 	BOUNCE,
-	START,
-	RESTART
+
+	//Custom
+	LEVELFINISHED
 }

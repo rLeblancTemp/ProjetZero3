@@ -1,10 +1,19 @@
 fileFormatVersion: 2
 guid: 9bd1c85590c0b034d9b946977e1c5db6
-timeCreated: 1436974135
+timeCreated: 1438960061
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ButtonPrefab: {instanceID: 0}
+  - LastParent: {fileID: 101870, guid: 0db6565a3e1747448a9cb04e61fe2da4, type: 2}
+  - FondBlanc: {instanceID: 0}
+  - S_Forward: {instanceID: 0}
+  - S_Left: {instanceID: 0}
+  - S_Right: {instanceID: 0}
+  - S_A: {instanceID: 0}
+  - S_B: {instanceID: 0}
+  - S_C: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

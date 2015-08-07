@@ -1,0 +1,1487 @@
+Mono path[0] = 'D:/D Folder/Projets/ProjetZero3/Builds/Windows0.1/Alpha_Data/Managed'
+Mono path[1] = 'D:/D Folder/Projets/ProjetZero3/Builds/Windows0.1/Alpha_Data/Mono'
+Mono config path = 'D:/D Folder/Projets/ProjetZero3/Builds/Windows0.1/Alpha_Data/Mono/etc'
+PlayerConnection initialized from D:/D Folder/Projets/ProjetZero3/Builds/Windows0.1/Alpha_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55021
+Multi-casting "[IP] 192.168.1.66 [Port] 55021 [Flags] 2 [Guid] 1455008067 [EditorId] 1849416554 [Version] 1048832 [Id] WindowsPlayer(WHITE-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.66:55021]
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 765M      (ID=0x11e2)
+    Vendor:   NVIDIA
+    VRAM:     1992 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween43.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween46.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween50.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.116 seconds
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\Windows0.1\Alpha_Data\Managed\System.dll (this message is harmless)
+object=[CreatePlayerData: type: createplayer]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:298)
+RedMetricsManager:createPlayer(Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:183)
+RedMetricsManager:sendStartEvent(Boolean) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+RedMetricsManager:Start() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:75)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+json=
+{
+    "type" : "createplayer"
+}
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:306)
+RedMetricsManager:createPlayer(Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:183)
+RedMetricsManager:sendStartEvent(Boolean) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+RedMetricsManager:Start() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:75)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+POST url:https://api.redmetrics.io/v1/player
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:POST(String, Byte[], Dictionary`2, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:127)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:createPlayer(Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:184)
+RedMetricsManager:sendStartEvent(Boolean) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+RedMetricsManager:Start() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:75)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:134)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:createPlayer(Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:184)
+RedMetricsManager:sendStartEvent(Boolean) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+RedMetricsManager:Start() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:75)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1d58 -> priority: 1 
+waitForWWW: message successfully transmitted
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:160)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+RedMetricsManager::wwwLogger Success: {
+  "id": "78f5d6dd-84be-4f2e-a415-3fad8a155569"
+} from extractPID
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:wwwLogger(WWW, String) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:200)
+RedMetricsManager:extractPID(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:211)
+RedMetricsManager:trackStart(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:241)
+RedMetricsManager:<sendStartEvent>m__2(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+setPlayerID(78f5d6dd-84be-4f2e-a415-3fad8a155569)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:setPlayerID(String) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:64)
+RedMetricsManager:trackStart(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:242)
+RedMetricsManager:<sendStartEvent>m__2(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+object=[TrackingEventDataWithIDs]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:298)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+RedMetricsManager:trackStart(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:243)
+RedMetricsManager:<sendStartEvent>m__2(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+json=
+{
+    "type" : "START",
+    "player" : "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+    "gameVersion" : "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+    "userTime"    : "2015-08-07T17:33:29.350Z",
+    "customData"  : null,
+    "section"     : null,
+    "coordinates" : null
+}
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:306)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+RedMetricsManager:trackStart(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:243)
+RedMetricsManager:<sendStartEvent>m__2(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+POST url:https://api.redmetrics.io/v1/event
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:POST(String, Byte[], Dictionary`2, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:127)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+RedMetricsManager:trackStart(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:243)
+RedMetricsManager:<sendStartEvent>m__2(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:134)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+RedMetricsManager:trackStart(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:243)
+RedMetricsManager:<sendStartEvent>m__2(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:271)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW: message successfully transmitted
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:160)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+RedMetricsManager::wwwLogger Success: {
+  "type": "start",
+  "gameVersion": "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+  "player": "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+  "serverTime": "2015-08-07T17:33:21.102Z",
+  "userTime": "2015-08-07T17:33:29.350Z",
+  "id": "70cc8ab5-4a75-4c35-a430-d1b1410e77fe"
+} from sendEvent(START)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:wwwLogger(WWW, String) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:200)
+<sendEvent>c__AnonStorey4:<>m__3(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.868810 ms
+System memory in use before: 13.9 MB.
+System memory in use after: 14.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 502.
+Total: 0.589368 ms (FindLiveObjects: 0.090793 ms CreateObjectMapping: 0.049739 ms MarkObjects: 0.433440 ms  DeleteObjects: 0.011842 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.202728 ms
+System memory in use before: 16.8 MB.
+System memory in use after: 16.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 768.
+Total: 0.911882 ms (FindLiveObjects: 0.090398 ms CreateObjectMapping: 0.069081 ms MarkObjects: 0.731084 ms  DeleteObjects: 0.019737 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Victory!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:200)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 200)
+
+object=[TrackingEventDataWithIDs]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:298)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+json=
+{
+    "type" : "LEVELFINISHED",
+    "player" : "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+    "gameVersion" : "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+    "userTime"    : "2015-08-07T17:33:37.542Z",
+    "customData"  : {
+        "Level Finished" : "Level 2 finished, Time Taken to finish : 6 seconds, Number of trials : 2"
+    },
+    "section"     : null,
+    "coordinates" : null
+}
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:306)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+POST url:https://api.redmetrics.io/v1/event
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:POST(String, Byte[], Dictionary`2, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:127)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:134)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW: message successfully transmitted
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:160)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+RedMetricsManager::wwwLogger Success: {
+  "type": "levelfinished",
+  "gameVersion": "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+  "player": "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+  "serverTime": "2015-08-07T17:33:29.315Z",
+  "userTime": "2015-08-07T17:33:37.542Z",
+  "id": "90fbfd07-0f41-40be-9024-9a122234b701",
+  "customData": {
+    "Level Finished": "Level 2 finished, Time Taken to finish : 6 seconds, Number of trials : 2"
+  }
+} from sendEvent(LEVELFINISHED)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:wwwLogger(WWW, String) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:200)
+<sendEvent>c__AnonStorey4:<>m__3(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.507478 ms
+System memory in use before: 17.3 MB.
+System memory in use after: 17.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 795.
+Total: 0.772533 ms (FindLiveObjects: 0.055660 ms CreateObjectMapping: 0.043422 ms MarkObjects: 0.531733 ms  DeleteObjects: 0.140137 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Left
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Victory!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:200)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 200)
+
+object=[TrackingEventDataWithIDs]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:298)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+json=
+{
+    "type" : "LEVELFINISHED",
+    "player" : "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+    "gameVersion" : "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+    "userTime"    : "2015-08-07T17:33:50.386Z",
+    "customData"  : {
+        "Level Finished" : "Level 3 finished, Time Taken to finish : 7 seconds, Number of trials : 2"
+    },
+    "section"     : null,
+    "coordinates" : null
+}
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:306)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+POST url:https://api.redmetrics.io/v1/event
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:POST(String, Byte[], Dictionary`2, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:127)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:134)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW: message successfully transmitted
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:160)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+RedMetricsManager::wwwLogger Success: {
+  "type": "levelfinished",
+  "gameVersion": "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+  "player": "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+  "serverTime": "2015-08-07T17:33:42.128Z",
+  "userTime": "2015-08-07T17:33:50.386Z",
+  "id": "3c6e8989-fc12-4cea-b2ac-e1a77d422656",
+  "customData": {
+    "Level Finished": "Level 3 finished, Time Taken to finish : 7 seconds, Number of trials : 2"
+  }
+} from sendEvent(LEVELFINISHED)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:wwwLogger(WWW, String) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:200)
+<sendEvent>c__AnonStorey4:<>m__3(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.235580 ms
+System memory in use before: 17.3 MB.
+System memory in use after: 17.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 789.
+Total: 0.544760 ms (FindLiveObjects: 0.049739 ms CreateObjectMapping: 0.031580 ms MarkObjects: 0.443308 ms  DeleteObjects: 0.019342 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:FirstPlay() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:102)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:137)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:602)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:744)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:372)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:271)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Right
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Left
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Current Case Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:161)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 161)
+
+Current Action Color : none
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:162)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 162)
+
+Executing order : Forward
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:ExecuteOrder(type) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:224)
+Lecture:Play() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:166)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:213)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 224)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : LastCase
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+//////////////////////// NEXT ORDER ////////////////////////
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:187)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 187)
+
+Victory!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:200)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Lecture.cs Line: 200)
+
+object=[TrackingEventDataWithIDs]
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:298)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+json=
+{
+    "type" : "LEVELFINISHED",
+    "player" : "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+    "gameVersion" : "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+    "userTime"    : "2015-08-07T17:34:04.388Z",
+    "customData"  : {
+        "Level Finished" : "Level 4 finished, Time Taken to finish : 8 seconds, Number of trials : 2"
+    },
+    "section"     : null,
+    "coordinates" : null
+}
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:getJsonString(Object) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:306)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:337)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+POST url:https://api.redmetrics.io/v1/event
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:POST(String, Byte[], Dictionary`2, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:127)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:134)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:62)
+RedMetricsManager:sendDataStandalone(String, String, Action`1) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:176)
+RedMetricsManager:sendEvent(TrackingEvent, CustomData, String, Int32[]) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+Lecture:Victory() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:288)
+Lecture:NextOrder() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:201)
+<WaitAndNext>c__Iterator2:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Lecture.cs:188)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+waitForWWW: message successfully transmitted
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:160)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+RedMetricsManager::wwwLogger Success: {
+  "type": "levelfinished",
+  "gameVersion": "60de91bf-bb1b-4b55-9d7f-1924e1328ca9",
+  "player": "78f5d6dd-84be-4f2e-a415-3fad8a155569",
+  "serverTime": "2015-08-07T17:33:56.144Z",
+  "userTime": "2015-08-07T17:34:04.388Z",
+  "id": "dc75a0fe-ea1f-48af-abc9-9ab01f2c530f",
+  "customData": {
+    "Level Finished": "Level 4 finished, Time Taken to finish : 8 seconds, Number of trials : 2"
+  }
+} from sendEvent(LEVELFINISHED)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+RedMetricsManager:logMessage(String, MessageLevel) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:88)
+RedMetricsManager:wwwLogger(WWW, String) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:200)
+<sendEvent>c__AnonStorey4:<>m__3(WWW) (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:339)
+<waitForWWW>c__Iterator0:MoveNext() (at D:\D Folder\Projets\ProjetZero3\Assets\Redmetrics\RedMetricsManager.cs:161)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Redmetrics/RedMetricsManager.cs Line: 88)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoBehaviour.cpp Line: 1715)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.410061 ms
+System memory in use before: 17.3 MB.
+System memory in use after: 17.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 860.
+Total: 0.697135 ms (FindLiveObjects: 0.072634 ms CreateObjectMapping: 0.046975 ms MarkObjects: 0.558971 ms  DeleteObjects: 0.017369 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.526514 ms
+System memory in use before: 17.1 MB.
+System memory in use after: 16.8 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 545.
+Total: 1.806789 ms (FindLiveObjects: 0.058028 ms CreateObjectMapping: 0.047370 ms MarkObjects: 0.863327 ms  DeleteObjects: 0.836484 ms)
+

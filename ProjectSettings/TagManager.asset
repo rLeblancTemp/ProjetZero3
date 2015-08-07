@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LastCase
   - Button
+  - Redmetrics
   layers:
   - Default
   - TransparentFX

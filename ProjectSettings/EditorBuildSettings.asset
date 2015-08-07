@@ -6,48 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scenes/Autres Scnes/MainMenu.unity
+    path: Assets/scenes/Other Scenes/MainMenu.unity
   - enabled: 1
-    path: Assets/scenes/Autres Scnes/LevelSelection.unity
+    path: Assets/scenes/Other Scenes/LevelSelection.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level01.unity
+    path: Assets/scenes/Levels/Level01.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level02.unity
+    path: Assets/scenes/Levels/Level02.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level03.unity
+    path: Assets/scenes/Levels/Level03.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level04.unity
+    path: Assets/scenes/Levels/Level04.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level05.unity
+    path: Assets/scenes/Levels/Level05.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level06.unity
+    path: Assets/scenes/Levels/Level06.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level07.unity
+    path: Assets/scenes/Levels/Level07.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level08.unity
+    path: Assets/scenes/Levels/Level08.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level09.unity
+    path: Assets/scenes/Levels/Level09.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level10.unity
+    path: Assets/scenes/Levels/Level10.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level11.unity
+    path: Assets/scenes/Levels/Level11.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level12.unity
+    path: Assets/scenes/Levels/Level12.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level13.unity
+    path: Assets/scenes/Levels/Level13.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level14.unity
+    path: Assets/scenes/Levels/Level14.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level15.unity
+    path: Assets/scenes/Levels/Level15.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level16.unity
+    path: Assets/scenes/Levels/Level16.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level17.unity
+    path: Assets/scenes/Levels/Level17.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level18.unity
+    path: Assets/scenes/Levels/Level18.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level19.unity
+    path: Assets/scenes/Levels/Level19.unity
   - enabled: 1
-    path: Assets/scenes/Previosu Final Levels/finalLevels/Level20.unity
+    path: Assets/scenes/Levels/Level20.unity
   - enabled: 1
-    path: Assets/scenes/Autres Scnes/LastScene.unity
+    path: Assets/scenes/Other Scenes/LastScene.unity

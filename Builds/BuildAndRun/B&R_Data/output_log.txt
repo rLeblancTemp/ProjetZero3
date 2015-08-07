@@ -1,0 +1,104 @@
+Mono path[0] = 'D:/D Folder/Projets/ProjetZero3/Builds/BuildAndRun/B&R_Data/Managed'
+Mono path[1] = 'D:/D Folder/Projets/ProjetZero3/Builds/BuildAndRun/B&R_Data/Mono'
+Mono config path = 'D:/D Folder/Projets/ProjetZero3/Builds/BuildAndRun/B&R_Data/Mono/etc'
+PlayerConnection initialized from D:/D Folder/Projets/ProjetZero3/Builds/BuildAndRun/B&R_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55414
+Multi-casting "[IP] 192.168.1.66 [Port] 55414 [Flags] 2 [Guid] 1270858597 [EditorId] 3382114035 [Version] 1048832 [Id] WindowsPlayer(WHITE-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.66:55414]
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 765M      (ID=0x11e2)
+    Vendor:   NVIDIA
+    VRAM:     1992 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween43.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween46.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween50.dll (this message is harmless)
+Loading D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\DOTween50.dll into Unity Child Domain
+- Completed reload, in  0.163 seconds
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\D Folder\Projets\ProjetZero3\Builds\BuildAndRun\B&R_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1f60 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.324423 ms
+System memory in use before: 13.9 MB.
+System memory in use after: 13.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 486.
+Total: 0.474492 ms (FindLiveObjects: 0.048554 ms CreateObjectMapping: 0.027237 ms MarkObjects: 0.387647 ms  DeleteObjects: 0.009868 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.948893 ms
+Null
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Button:Awake() (at D:\D Folder\Projets\ProjetZero3\Assets\Resources\Prefabs\Button.cs:41)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Resources/Prefabs/Button.cs Line: 41)
+
+System memory in use before: 17.0 MB.
+System memory in use after: 17.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 752.
+Total: 0.641473 ms (FindLiveObjects: 0.067107 ms CreateObjectMapping: 0.056449 ms MarkObjects: 0.479229 ms  DeleteObjects: 0.037106 ms)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+CASETAG : Untagged
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Character:OnTriggerEnter(Collider) (at D:\D Folder\Projets\ProjetZero3\Assets\Scripts\Character.cs:38)
+ 
+(Filename: D:/D Folder/Projets/ProjetZero3/Assets/Scripts/Character.cs Line: 38)
+
+ArgumentException: The thing you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x0000d] in C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:103 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original, Vector3 position, Quaternion rotation) [0x00000] in C:\buildslave\unity\build\Runtime\Export\UnityEngineObject.cs:79 
+  at Button.OnBeginDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00052] in D:\D Folder\Projets\ProjetZero3\Assets\Resources\Prefabs\Button.cs:121 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IBeginDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:66 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IBeginDragHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x0006f] in C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:273)
+UnityEngine.EventSystems.PointerInputModule:ProcessDrag(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\PointerInputModule.cs:245)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:273)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:169)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:271)
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Export/UnityEngineObject.cs Line: 103)
+
